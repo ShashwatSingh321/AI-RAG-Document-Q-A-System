@@ -1,0 +1,23 @@
+[project]
+name = "rag-evaluation-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Shashwat Singh", email = "shashwat.singh.dev0@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=1.4.7",
+    "langchain-google-genai>=4.4.2",
+    "pydantic>=2.14.1",
+    "pymupdf>=1.28.2",
+    "python-dotenv>=1.2.4",
+]
+
+[tool.uv]
+package = false
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
